@@ -23,7 +23,7 @@ app.use(morgan('short'))
 
 app.get('/', function (req, res) {
 
-    console.log("Hello World")
+    res.send('Hello World')
 })
 
 // Add a new user to the database
@@ -46,7 +46,7 @@ app.get('/', function (req, res) {
    * 
    * Listen only when database connection is sucessfull
    */
-  app.listen(8080, function() {
-    console.log('Express server listening on port 3000');
-  });
+app.listen(8080, function() {
+  console.log('Express server listening on port 3000');
+});
 //});
