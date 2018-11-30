@@ -1,7 +1,7 @@
-//const express = require('express')
-//const bodyParser = require('body-parser');
-//const morgan = require('morgan');
-//const app = express()
+const express = require('express')
+const bodyParser = require('body-parser');
+const morgan = require('morgan');
+const app = express()
 //const models = require('./models/index');
 
 console.log('Japprecie les fruits aux sirops')
