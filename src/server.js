@@ -4,8 +4,6 @@ const morgan = require('morgan');
 const app = express()
 const models = require('./models/index');
 
-console.log('Hello')
-
 // Decode json and x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
